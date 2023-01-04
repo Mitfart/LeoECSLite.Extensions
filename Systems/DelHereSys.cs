@@ -13,7 +13,7 @@ namespace Ecs.Del{
 		}
 
 		public void Run(IEcsSystems systems){
-			foreach (var e in _filter)
+			foreach (int e in _filter)
 				_tPool.Del(e);
 		}
 	}

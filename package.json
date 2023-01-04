@@ -1,0 +1,20 @@
+{
+  "name": "com.mitfart.leoecslite.extentions",
+  "author": "Mitfart",
+  "displayName": "LeoECS Lite Extentions",
+  "description": "Пакет Расширений для LeoECS Lite",
+  "unity": "2020.3",
+  "version": "2023.01.4",
+  "keywords": [
+    "leoecslite",
+    "leoecs",
+    "ecs",
+    "unity",
+    "extention"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mitfart/LeoECSLite.Extensions.git"
+  }
+}
