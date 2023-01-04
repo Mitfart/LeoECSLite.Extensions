@@ -1,0 +1,22 @@
+using Leopotam.EcsLite;
+
+namespace Ecs.Del{
+	public sealed class DelHereSys<T> : IEcsRunSystem, IEcsInitSystem where T : struct {
+		private EcsWorld   _world;
+		private EcsFilter  _filter;
+		private EcsPool<T> _tPool;
+
+		public void Init(IEcsSystems systems){
+			_world  = systems.GetWorld();
+			_filter = _world.Filter<T>().End();
+			_tPool  = _world.GetPool<T>();
+		}
+
+		public void Run(IEcsSystems systems){
+			foreach (var e in _filter)
+				_tPool.Del(e);
+		}
+	}
+}
+
+			

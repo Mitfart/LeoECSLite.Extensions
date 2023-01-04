@@ -1,0 +1,16 @@
+{
+    "name": "MitfartLeoECSLite.Extensions",
+    "rootNamespace": "Mitfart.LeoECSLite.Extensions",
+    "references": [
+        "Leopotam.EcsLite"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
