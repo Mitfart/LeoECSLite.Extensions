@@ -1,6 +1,6 @@
 using Leopotam.EcsLite;
 
-namespace EcsExtensions.Pool{
+namespace Mitfart.LeoECSLite.Extensions.LeoECSLite.Extensions.Pool{
 	public static class EcsPoolExt{
 	
 		public static void TryAdd<T>(this EcsPool<T> pool, int e) where T : struct{ if (!pool.Has(e)) pool.Add(e); }

@@ -1,6 +1,6 @@
 using Leopotam.EcsLite;
 
-namespace Ecs.Del{
+namespace Mitfart.LeoECSLite.Extensions.LeoECSLite.Extensions.Systems{
 	public sealed class DelHereSys<T> : IEcsRunSystem, IEcsInitSystem where T : struct {
 		private EcsWorld   _world;
 		private EcsFilter  _filter;
